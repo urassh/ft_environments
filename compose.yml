@@ -1,0 +1,9 @@
+services:
+  ft_environment:
+    build: .
+    container_name: ft_environment
+    volumes:
+      - .:/cursus
+    working_dir: /cursus
+    tty: true
+
